@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+html{
+    background-image: linear-gradient(20deg, #e1fbd5 0, #dbfcd9 7.14%, #d5fddd 14.29%, #d0fde2 21.43%, #cbfee7 28.57%, #c7ffec 35.71%, #c3fff2 42.86%, #c0fff7 50%, #befffc 57.14%, #bdffff 64.29%, #bcfeff 71.43%, #bdfeff 78.57%, #bffdff 85.71%, #c1fcff 92.86%, #c5fbff 100%);
+
+
+}
+
+
+.form{
+    width: 600px;
+    background:#FCFFF7;
+    padding: 40px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px -5px rgba(0 0 0/30%);
+    color: black;
+}
+
+.form-cont h2{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.form-input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    color: black;
+    border-color: black;
+    background:#F1FAEE;
+
+}
+
+.warnings{
+    width: 300px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    padding-top: 20px;
+}
+
+button{
+
+    background: #D4F4DD;
+    width: 100%;
+    border: solid;
+    padding: 12px;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius:10px;
+
+
+}
+
+
+@media (max-width: 960px){
+
+    .form{
+        width: 90%
+    }
+
+    html{
+        font-size: 55%;
+    }
+
+    .welcome{
+        font-size: 16px;
+        width: 100%;
+    }
+
+}
